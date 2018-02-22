@@ -7,7 +7,7 @@
 
 ### Python Files
 * **preprocess.py**: Inputed the missing values and using z-norm to normalize the data.
-* **KNN.py**: Run knn-algorithm on the data.
+* **knn.py**: Run knn-algorithm on the data.
 
 
 ### Intruction
