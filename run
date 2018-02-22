@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo -e "To run:\n./run k [file_testing] [file_training]\n\nRunning...\n"
+python3 knn.py $1 $2 $3
+
+# cat testing_k$1 | perl accuracy_lenses.pl # (for lenses dataset)
+cat testing_k$1 | perl accuracy.pl

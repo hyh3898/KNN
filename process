@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo -e "To run type:\n./processed crx.data.training \nRunning on $1...\n"
+
+echo -e "\nOutputing processed data..."
+echo -e "$1 => crx.training.processed\n"
+python3 preprocess.py $1
